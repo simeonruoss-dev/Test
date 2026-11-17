@@ -382,6 +382,18 @@ def build_8d(wb):
     ws.conditional_formatting.add(f"D{r}", DataBarRule(start_type="num", start_value=0, end_type="num",
                                                        end_value=1, color="2F5597"))
     prog_row = r
+    r += 1
+    g = lambda k: f"G{s_first + k}"  # noqa: E731
+    put(ws, r, 1, 3, "Plausibilitätsprüfung Reihenfolge", font=F_BOLD, fill=FILL_GREY_L)
+    put(ws, r, 4, 8, f'=IF(AND({g(8)}="erledigt",{g(6)}<>"erledigt"),"Achtung: D8 erledigt, aber D6 '
+                     f'(Wirksamkeitsnachweis) nicht erledigt",IF(AND({g(6)}="erledigt",{g(4)}<>"erledigt"),'
+                     f'"Achtung: D6 erledigt, aber D4 (Ursachen) nicht erledigt",IF(AND({g(5)}="erledigt",'
+                     f'{g(4)}<>"erledigt"),"Achtung: D5 erledigt, aber D4 (Ursachen) nicht erledigt","ok")))',
+        fill=FILL_GREY_L)
+    ws.conditional_formatting.add(f"D{r}:H{r}", FormulaRule(formula=[f'LEFT($D{r},7)="Achtung"'],
+                                                            fill=RED[0], font=RED[1]))
+    ws.conditional_formatting.add(f"D{r}:H{r}", FormulaRule(formula=[f'$D{r}="ok"'], fill=GRN[0], font=GRN[1]))
+    plaus_row = r
     r += 2
 
     # D0
@@ -625,7 +637,8 @@ def build_8d(wb):
     ws.row_dimensions[r].height = 45
     page(ws, print_rows="1:2", area=f"A1:H{r}")
     return {"fehler_row": kopf_rows["Fehlerbezeichnung (kurz)"], "d2_row": d2_row,
-            "status_first": s_first, "status_last": s_last, "prog_row": prog_row}
+            "status_first": s_first, "status_last": s_last, "prog_row": prog_row,
+            "plaus_row": plaus_row}
 
 
 def build_5why(wb, refs):
@@ -716,9 +729,9 @@ def build_ishikawa(wb, refs):
     for i, h in enumerate(hints):
         put(ws, 5, 2 + i, 2 + i, h, font=F_HINT, fill=FILL_GREY_L)
     ws.row_dimensions[5].height = 48
-    T_FIRST, T_LAST = 10, 10 + 60
+    T_FIRST, T_LAST = 11, 11 + 60
     kpis = [("Anzahl", None), ("bestätigt", "bestätigt"), ("wahrscheinlich", "wahrscheinlich"),
-            ("ausgeschl.", "ausgeschlossen")]
+            ("möglich", "möglich"), ("ausgeschlossen", "ausgeschlossen")]
     for j, (lab, crit) in enumerate(kpis):
         rr = 6 + j
         put(ws, rr, 1, 1, lab, font=F_BOLD, fill=FILL_GREY_L, align=WRAP_C)
@@ -900,6 +913,7 @@ def test(refs):
     print("Tracker Beispielzeile Ampel/Tage:", tr["J5"].value, tr["K5"].value, "· Zähler:",
           tr["C3"].value, tr["F3"].value, tr["I3"].value, tr["L3"].value)
     pr = refs["prog_row"]
+    print("Plausibilität leer:", wbv["8D-Report"][f"D{refs['plaus_row']}"].value)
     print("8D Fortschritt leer:", wbv["8D-Report"][f"D{pr}"].value, wbv["8D-Report"][f"E{pr}"].value)
     print("Ishikawa Anzahl Maschine:", wbv["Ishikawa"]["C6"].value)
     assert not errs
@@ -925,8 +939,8 @@ def test(refs):
     t["C9"], t["G9"] = "Test ohne Termin", "offen"
     t["C10"], t["F10"], t["G10"] = "Test im Plan", today + dt.timedelta(days=30), "offen"
     i = wbt["Ishikawa"]
-    i["B12"], i["C12"], i["D12"] = "Messung", "Lehrdorn verschlissen", "ausgeschlossen"
-    i["B13"], i["C13"], i["D13"] = "Methode", "Prüfplan Stichprobe", "bestätigt"
+    i["B13"], i["C13"], i["D13"] = "Messung", "Lehrdorn verschlissen", "ausgeschlossen"
+    i["B14"], i["C14"], i["D14"] = "Methode", "Prüfplan Stichprobe", "bestätigt"
     tpath = os.path.join(tmp, "funktionstest.xlsx")
     wbt.save(tpath)
     out_dir2 = os.path.join(tmp, "calc")
@@ -947,6 +961,8 @@ def test(refs):
                   "kein Termin"]
     assert amp == expect_amp, amp
     assert abs(prog - 3 / 8) < 1e-9, prog
+    print("Plausibilität (Testdaten):", s2[f"D{refs['plaus_row']}"].value)
+    assert s2[f"D{refs['plaus_row']}"].value == "ok"
     assert [x[1] for x in tamp] == ["überfällig", "fällig ≤ 7 T", "erledigt", "kein Termin", "im Plan"], tamp
     assert tamp[0][2] == 5 and [x[0] for x in tamp] == [1, 2, 3, 4, 5]
     assert (t2["C3"].value, t2["F3"].value, t2["I3"].value, t2["L3"].value) == (4, 1, 1, 1)

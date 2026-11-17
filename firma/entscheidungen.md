@@ -6,6 +6,7 @@
 | 17.11.2026 | **0-€-Fixkosten-Prinzip** bis zum Funktionsnachweis | Erst Zahlungsbereitschaft validieren | Nur Werkzeuge mit kostenlosem Tarif (s. u.); einzige empfohlene Ausnahme: Domain |
 | 17.11.2026 | Bestehendes Gewerbe nutzen | Bereits angemeldet | Ummeldung (neuer Wohnsitz) + Tätigkeit „Verkauf digitaler Produkte/Online-Inhalte“ ergänzen |
 | 17.11.2026 | **Anrede „Sie“** in allen Kundentexten (Website, Produkte, E-Mails, Videos) | B2B-Zielgruppe (Geschäftsführung, QMB in KMU) | Website umgestellt; Teams informiert |
+| 17.11.2026 | **KI-Stimme statt eigener Stimme** (Piper, „Thorsten“) | Inhaber möchte nicht selbst sprechen; 0 € | Agent `sprecher`; Hinweis „Sprecherstimme KI-generiert“ in jeder Beschreibung |
 
 ## 0-€-Stack (Startphase)
 | Funktion | Werkzeug | Kosten | Hinweis |

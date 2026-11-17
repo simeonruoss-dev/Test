@@ -1,0 +1,3 @@
+tools/tts/stimmen/
+*.wav
+__pycache__/

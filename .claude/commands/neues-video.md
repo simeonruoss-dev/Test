@@ -11,5 +11,6 @@ Produziere ein Video zum Thema: $ARGUMENTS
    b. `skript-autor` → `02-skript.md`
    c. `packaging` → `03-packaging.md`
    d. `qualitaets-pruefer` → `04-review.md`
+   e. `sprecher` → `voiceover/` (nur bei 🟢/🟡 nach Fixes; KI-Stimme, Hinweis in Beschreibung)
 4. Bei 🟡/🔴 im Review: Fixes umsetzen lassen und erneut prüfen (max. 2 Iterationen).
 5. Abschluss: Ampel, empfohlener Titel, Thumbnail-Konzept, geschätzte Videolänge, offene To-dos für die Produktion.

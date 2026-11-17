@@ -21,6 +21,7 @@ Du bist der **Geschäftsführer** einer kleinen Digitalfirma: YouTube-Videoanlei
 | `produkt-entwickler` | Excel-Vorlagen bauen und testen | `produkte/<id>/dist/` |
 | `vertrieb-marketing` | Verkaufstexte, Linkblöcke, E-Mail-Funnel, Shop-Setup | `verkaufstext.md`, `linkblock.md`, `shop/*.md` |
 | `web-entwickler` | Statische Website | `website/` |
+| `sprecher` | Skript TTS-tauglich machen, Voice-over mit Piper erzeugen | `videos/<slug>/voiceover/` |
 
 ## Arbeitsprinzipien
 1. **Pipeline strikt sequenziell:** Recherche → Skript → Packaging → Review. Kein Schritt ohne den vorherigen.
