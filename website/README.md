@@ -50,6 +50,8 @@ cd website && python3 -m http.server 8000   # http://localhost:8000
 ## Deploy
 
 ### Option A: GitHub Pages
+
+> ⚠️ **Für den Livegang nicht empfohlen:** Die GitHub-Nutzungsbedingungen untersagen GitHub Pages als kostenloses Hosting für ein Online-Geschäft bzw. E-Commerce (aktuellen Wortlaut prüfen). Für die Vorschau unkritisch; live → Option B (Netlify) oder Cloudflare Pages. Siehe `firma/entscheidungen.md`.
 1. Repo auf GitHub (kann privat sein, Pages für private Repos erfordert je nach Plan ein kostenpflichtiges Konto – prüfen).
 2. Da die Website im Unterordner liegt, per GitHub Actions veröffentlichen: *Settings → Pages → Source: GitHub Actions*, Workflow `.github/workflows/pages.yml`:
    ```yaml
