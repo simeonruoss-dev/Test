@@ -31,7 +31,7 @@ Teamleiter: Leiter Qualität (Entscheidungsbefugnis) · Gießereimeister · Werk
 ## D3 – Sofortmaßnahmen (Containment) [8]
 | Ort | Maßnahme | Verantwortlich | Ergebnis (fiktiv) |
 |---|---|---|---|
-| Kunde | Sperrung, 100 %-Sortierung durch Sortierdienstleister auf Kosten Muster GmbH | Qualität | 3 weitere NIO-Teile gefunden |
+| Kunde | Sperrung; 100 %-Sortierung der **noch nicht verbauten** Halter durch Sortierdienstleister auf Kosten Muster GmbH (bereits verbaute Module sichert der Kunden-End-of-Line-Test ab) | Qualität | 3 weitere NIO-Teile gefunden |
 | Transit | Sendungen identifiziert und gesperrt | Logistik | 2 Paletten zurückgeholt |
 | Lager Muster GmbH | Sperrung, erneute Dichtheitsprüfung **nach Abkühlung auf Raumtemperatur**, abgesichert mit Leck-Referenzteil | Prüffeld | 11 NIO |
 | Fertigung | W2 gestoppt, Produktion auf W1 | Gießerei | – |
