@@ -239,7 +239,8 @@ def build_start(wb, sheets):
         c.hyperlink = Hyperlink(ref=c.coordinate, location=f"'{name}'!A1")
         c.font = F_LINK
         c.border = BORDER
-        put(ws, r, 3, 3, desc)
+        c.alignment = Alignment(vertical="center", indent=1)
+        put(ws, r, 3, 3, desc, align=Alignment(wrap_text=True, vertical="center"))
         ws.row_dimensions[r].height = 30
         r += 1
     r += 1
@@ -693,7 +694,7 @@ def build_5why(wb, refs):
 def build_ishikawa(wb, refs):
     ws = wb.create_sheet("Ishikawa")
     LC = 7
-    widths(ws, [10, 18, 40, 18, 34, 18, 18])
+    widths(ws, [14, 18, 40, 18, 34, 18, 18])
     title(ws, "Ishikawa – Ursachensammlung nach 6M (Tabellenform)", LC,
           "Erst sammeln (Brainstorming im Team), dann jede mögliche Ursache prüfen und bewerten. Bestätigte "
           "Ursachen in D4 übertragen. Die graue Beispielzeile zählt in der Übersicht mit, bis Sie sie löschen.")
@@ -711,7 +712,7 @@ def build_ishikawa(wb, refs):
              "Rohmaterial, Zukaufteile, Charge, Lagerung",
              "Prüfmittel, Messmethode, Kalibrierung, Prüfumfang",
              "Temperatur, Sauberkeit, Licht, Vibration, Feuchte"]
-    put(ws, 5, 1, 1, "Denk-anstöße", font=F_BOLD, fill=FILL_GREY_L, align=WRAP_C)
+    put(ws, 5, 1, 1, "Denkanstöße", font=F_BOLD, fill=FILL_GREY_L, align=WRAP_C)
     for i, h in enumerate(hints):
         put(ws, 5, 2 + i, 2 + i, h, font=F_HINT, fill=FILL_GREY_L)
     ws.row_dimensions[5].height = 48
