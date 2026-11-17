@@ -23,6 +23,7 @@
 
 ## 2. Zielgruppe (Persona)
 - **Primär, „Sarah, 29, SQE bei einem Tier-1“:** 0–3 Jahre im Job, muss PPAP/PPF-Freigaben, 8D-Bewertungen und Lieferantenaudits verantworten, lernt viel „on the job“.
+- **Neu, Käufergruppe für Produkte: KMU (10–250 MA)** – Geschäftsführung und QMB, die ISO 9001 einführen oder pflegen und Lieferanten steuern müssen. Sie bekommen keine Normtexte, sondern praxistaugliche Excel-Vorlagen.
 - **Sekundär:** Qualitätsingenieure, strategische Einkäufer, Quereinsteiger, Studierende (Wirtschaftsingenieurwesen), Mitarbeitende bei Zulieferern, die 8D-Reports *schreiben* müssen.
 - **Jobs-to-be-done:** „Ich muss bis morgen einen 8D bewerten / eine Bemusterung freigeben / ein Audit vorbereiten und will es richtig machen.“
 - **Wissensniveau:** Einsteiger bis Fortgeschrittene

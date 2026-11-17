@@ -1,0 +1,39 @@
+{
+  "_hinweis": "Single Source of Truth für Produkte, Preise und Kauf-Links. checkout_url nach Anlage im Shop (z. B. Digistore24) eintragen. Videos und Website verlinken IMMER auf die produkt_seite (eigene Domain), nie direkt auf den Checkout – so bleiben alte Videolinks gültig, wenn der Shop wechselt.",
+  "domain": "https://www.DEINE-DOMAIN.de",
+  "utm_schema": "?utm_source=youtube&utm_medium=video&utm_campaign=<video-slug>",
+  "produkte": [
+    {
+      "id": "p0-8d-vorlage",
+      "name": "8D-Report Vorlage (Excel) – kostenlos",
+      "typ": "lead-magnet",
+      "preis_eur": 0,
+      "zielgruppe": "SQE, Qualitätsingenieure, Zulieferer",
+      "produkt_seite": "/produkte/8d-vorlage.html",
+      "checkout_url": "TODO_EMAIL_OPTIN_URL",
+      "status": "in_entwicklung"
+    },
+    {
+      "id": "p1-iso9001-baukasten",
+      "name": "ISO 9001 Baukasten für KMU (Excel)",
+      "typ": "produkt",
+      "preis_eur": 79,
+      "preis_begruendung": "Hypothese. Vergleich: engl. Komplettpaket auf Etsy ca. 56 €; deutsche Verlagssammlungen und QM-Software teils deutlich teurer. Nach ersten Verkäufen testen.",
+      "zielgruppe": "KMU (10–250 MA), QMB, Geschäftsführung vor Erstzertifizierung",
+      "produkt_seite": "/produkte/iso-9001-baukasten.html",
+      "checkout_url": "TODO_CHECKOUT_URL",
+      "status": "in_entwicklung"
+    },
+    {
+      "id": "p2-lieferanten-toolkit",
+      "name": "Lieferantenmanagement-Toolkit (Excel)",
+      "typ": "produkt",
+      "preis_eur": 49,
+      "preis_begruendung": "Hypothese, Bündelangebot mit P1 später prüfen.",
+      "zielgruppe": "Einkauf/QM in KMU, SQE",
+      "produkt_seite": "/produkte/lieferanten-toolkit.html",
+      "checkout_url": "TODO_CHECKOUT_URL",
+      "status": "in_entwicklung"
+    }
+  ]
+}
