@@ -267,3 +267,9 @@ input[disabled] { opacity: .75; cursor: not-allowed; }
   .site-nav, .site-footer, .btn { display: none; }
   body { background: #fff; color: #000; }
 }
+
+/* Abstände zwischen Abschnitten der Produktseiten */
+.product-layout > div > section + section { margin-top: 2.25rem; }
+.product-layout .buybox { margin-top: 2.25rem; }
+@media (min-width: 900px) { .product-layout .buybox { margin-top: 0; } }
+.hero-actions { align-items: center; }
