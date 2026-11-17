@@ -1,0 +1,1130 @@
+{
+  "titel": "8D-Report erklärt – alle 8 Disziplinen am Praxisbeispiel",
+  "ziel_minuten": [
+    8,
+    11
+  ],
+  "segmente": [
+    {
+      "id": "S01",
+      "folie": "F01",
+      "kapitel": "Einleitung",
+      "fiktiv": false,
+      "sprechtext": "Ein Kunde meldet undichte Bauteile. Er will schnell wissen, wie Sie ihn schützen, und am Ende will er einen 8D-Report sehen, der fachlich hält. Ob dieser Report trägt, entscheidet sich dabei nicht am Formular, sondern an einer Frage in Disziplin vier.",
+      "layout": "titel",
+      "daten": {
+        "ueberschrift": "Reklamation: undicht",
+        "unterzeile": "Was einen 8D-Report fachlich tragfähig macht",
+        "badge": "8D-Report erklärt"
+      }
+    },
+    {
+      "id": "S02",
+      "folie": "F02",
+      "kapitel": "Einleitung",
+      "fiktiv": false,
+      "sprechtext": "In diesem Video gehen wir alle acht Disziplinen an einem durchgängigen Praxisfall durch, vom ersten Anruf bis zum Abschluss. Und ich zeige Ihnen jeden Schritt direkt in unserer eigenen, kostenlosen 8D-Vorlage für Excel.",
+      "layout": "zeitstrahl",
+      "daten": {
+        "ueberschrift": "Fahrplan: alle Disziplinen am Praxisfall",
+        "schritte": [
+          {
+            "label": "D0",
+            "text": "Planung"
+          },
+          {
+            "label": "D1",
+            "text": "Team"
+          },
+          {
+            "label": "D2",
+            "text": "Problem"
+          },
+          {
+            "label": "D3",
+            "text": "Sofortmaßnahmen"
+          },
+          {
+            "label": "D4",
+            "text": "Ursachen"
+          },
+          {
+            "label": "D5",
+            "text": "Abstellmaßnahmen"
+          },
+          {
+            "label": "D6",
+            "text": "Wirksamkeit"
+          },
+          {
+            "label": "D7",
+            "text": "Vorbeugen"
+          },
+          {
+            "label": "D8",
+            "text": "Abschluss"
+          }
+        ],
+        "aktiv": 4
+      }
+    },
+    {
+      "id": "S03",
+      "folie": "F03",
+      "kapitel": "Grundlagen",
+      "fiktiv": false,
+      "sprechtext": "Kurz zur Einordnung. 8D steht für acht Disziplinen, also acht Arbeitsschritte, D1 bis D8. Manche stellen noch einen Schritt D0 voran: die Planung.",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "8D = 8 Disziplinen",
+        "punkte": [
+          "Acht Arbeitsschritte: D1 bis D8",
+          "+ D0 Planung (optional)"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "folie": "F04",
+      "kapitel": "Grundlagen",
+      "fiktiv": false,
+      "sprechtext": "Als Ursprung wird meist Ford genannt, mit einem Handbuch namens „Team Oriented Problem Solving“ von 1987. Ganz unumstritten ist das nicht: Manche Quellen sehen Vorläufer in einer US-Militärnorm.",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "Herkunft von 8D",
+        "punkte": [
+          "1987: Ford-Handbuch „Team Oriented Problem Solving“",
+          "Verbreitete Angabe"
+        ],
+        "hinweis": "Herkunft umstritten: Vorläufer in US-Militärnorm diskutiert"
+      }
+    },
+    {
+      "id": "S05",
+      "folie": "F05",
+      "kapitel": "Grundlagen",
+      "fiktiv": false,
+      "sprechtext": "In der deutschen Automobilindustrie ist der VDA-Band „8D – Problemlösung in 8 Disziplinen“ von 2018 eine gängige Referenz. Und die IATF 16949 verlangt einen definierten Problemlösungsprozess, schreibt aber nicht wörtlich „8D“ vor. Das 8D-Format fordern meist Ihre Kunden, oft mit eigenem Formular. Deshalb gilt: Die Kundenvorgabe geht vor.",
+      "layout": "karten",
+      "daten": {
+        "ueberschrift": "Wer verlangt 8D?",
+        "karten": [
+          {
+            "titel": "VDA-Band 8D (2018)",
+            "text": "Gängige Referenz"
+          },
+          {
+            "titel": "IATF 16949",
+            "text": "Problemlösungsprozess, kein 8D-Zwang"
+          },
+          {
+            "titel": "Kundenformular",
+            "text": "Geht vor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "folie": "F06",
+      "kapitel": "Praxisfall",
+      "fiktiv": true,
+      "sprechtext": "Unser Fall ist fiktiv, aber realistisch. Die Muster GmbH ist eine Druckgießerei. Sie liefert einen Halter aus Aluminium-Druckguss mit integriertem Kühlmittelkanal an einen Automobilhersteller. Der Kunde meldet: Beim Dichtheitstest am Bandende sind sechs von zwölfhundert Pumpenmodulen undicht. Die Leckage sitzt an der bearbeiteten Dichtfläche unseres Halters.",
+      "layout": "karten",
+      "daten": {
+        "ueberschrift": "Fall: Muster GmbH",
+        "karten": [
+          {
+            "titel": "Lieferant",
+            "text": "Muster GmbH, Aluminium-Druckgießerei"
+          },
+          {
+            "titel": "Teil",
+            "text": "Halter Kühlmittelpumpe, Alu-Druckguss"
+          },
+          {
+            "titel": "Reklamation",
+            "text": "6 von 1.200 Modulen undicht"
+          },
+          {
+            "titel": "Fehlerort",
+            "text": "Bearbeitete Dichtfläche am Kühlmittelkanal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "folie": "F07",
+      "kapitel": "D0 Planung",
+      "fiktiv": true,
+      "sprechtext": "D0, Planung. Bevor Sie losrennen: Ist das überhaupt ein 8D-Fall? Bei Auswirkung beim Kunden und unklarer Ursache: ja. Klären Sie außerdem gleich, ob der Kunde ein eigenes Formular oder Portal und eigene Fristen vorgibt.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D0: Ist das ein 8D-Fall?",
+        "blatt": "Kopf D0",
+        "spalten": [
+          "Feld",
+          "Inhalt"
+        ],
+        "zeilen": [
+          [
+            "Teil / Sachnr.",
+            "Halter Kühlmittelpumpe, MG-4711"
+          ],
+          [
+            "Kunde",
+            "Automobilhersteller (fiktiv)"
+          ],
+          [
+            "Reklamation",
+            "6 von 1.200 Modulen undicht"
+          ],
+          [
+            "8D erforderlich?",
+            "Ja: Kundenauswirkung, Ursache unklar"
+          ],
+          [
+            "Formular / Fristen",
+            "Kundenvorgabe klären"
+          ],
+          [
+            "Status",
+            "D0 in Bearbeitung"
+          ]
+        ],
+        "markiert": [
+          3,
+          4
+        ],
+        "hinweis": "Kundenvorgabe geht vor"
+      }
+    },
+    {
+      "id": "S08",
+      "folie": "F08",
+      "kapitel": "D1 Team",
+      "fiktiv": true,
+      "sprechtext": "D1, das Team. Ein 8D ist keine Einzelaufgabe der Qualitätsabteilung. Ins Team gehören Leute mit Produkt- und Prozesswissen: hier der Gießereimeister, die Werkzeugwartung, der Verantwortliche für die Dichtheitsprüfung und die Bearbeitung. Dazu ein Teamleiter, der entscheiden darf, und ein Sponsor aus der Werkleitung, der für Ressourcen sorgt.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D1: Team mit Produkt- und Prozesswissen",
+        "blatt": "D1 Team",
+        "spalten": [
+          "Rolle",
+          "Name",
+          "Abteilung"
+        ],
+        "zeilen": [
+          [
+            "Teamleiter",
+            "A. Beispiel",
+            "Leitung Qualität"
+          ],
+          [
+            "Gießereimeister",
+            "B. Beispiel",
+            "Gießerei"
+          ],
+          [
+            "Werkzeugwartung",
+            "C. Beispiel",
+            "Werkzeugbau"
+          ],
+          [
+            "Dichtheitsprüfung",
+            "D. Beispiel",
+            "Prüffeld"
+          ],
+          [
+            "Bearbeitung",
+            "E. Beispiel",
+            "Prozessingenieur"
+          ],
+          [
+            "Sponsor",
+            "F. Beispiel",
+            "Werkleitung"
+          ]
+        ],
+        "markiert": [
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "folie": "F09",
+      "kapitel": "D2 Problembeschreibung",
+      "fiktiv": true,
+      "sprechtext": "D2, die Problembeschreibung. Hier entscheidet sich viel. „Teil undicht“ ist keine Problembeschreibung. Nutzen Sie die W-Fragen: Was, wo, wann, wie viele, und vor allem: Was ist betroffen und was nicht?",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "D2: W-Fragen",
+        "punkte": [
+          "Was?",
+          "Wo?",
+          "Wann?",
+          "Wie viele?"
+        ],
+        "hinweis": "Was ist nicht betroffen?"
+      }
+    },
+    {
+      "id": "S10",
+      "folie": "F10",
+      "kapitel": "D2 Problembeschreibung",
+      "fiktiv": true,
+      "sprechtext": "Im Fall zeigt der Vergleich: Alle undichten Teile stammen aus Werkzeug zwei, und alle wurden nach einer Werkzeugwartung gegossen. Teile aus Werkzeug eins: unauffällig. Teile von vor der Wartung: unauffällig. Diese Gegenüberstellung „ist“ und „ist nicht“ grenzt die Ursache ein, bevor die Analyse überhaupt beginnt. In der Vorlage tragen Sie das in zwei Spalten nebeneinander ein.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D2: IST und IST NICHT",
+        "blatt": "D2 Problem",
+        "spalten": [
+          "Frage",
+          "IST",
+          "IST NICHT"
+        ],
+        "zeilen": [
+          [
+            "Was?",
+            "Leckage an bearbeiteter Dichtfläche",
+            "Rohgussflächen, Maßfehler"
+          ],
+          [
+            "Wo (Herkunft)?",
+            "Nur Werkzeug 2",
+            "Werkzeug 1"
+          ],
+          [
+            "Wann?",
+            "Gegossen nach Werkzeugwartung",
+            "Teile vor der Wartung"
+          ],
+          [
+            "Wie viele?",
+            "6 von 1.200 Modulen",
+            "–"
+          ],
+          [
+            "Wie entdeckt?",
+            "End-of-Line-Test beim Kunden",
+            "Eigene 100 %-Prüfung: i. O."
+          ]
+        ],
+        "markiert": [
+          1,
+          2
+        ],
+        "hinweis": "Gegenüberstellung grenzt die Ursache ein"
+      }
+    },
+    {
+      "id": "S11",
+      "folie": "F11",
+      "kapitel": "D3 Sofortmaßnahmen",
+      "fiktiv": true,
+      "sprechtext": "D3, Sofortmaßnahmen. Ihr Ziel: den Kunden schützen, solange die Ursache noch unbekannt ist. Eine Sofortmaßnahme ist ausdrücklich keine Dauerlösung. Denken Sie an jeden Ort, an dem fehlerhafte Teile liegen können: beim Kunden, auf dem Transportweg, im eigenen Lager und in der laufenden Fertigung.",
+      "layout": "karten",
+      "daten": {
+        "ueberschrift": "Wo liegen fehlerhafte Teile?",
+        "karten": [
+          {
+            "titel": "Kunde",
+            "text": "Noch nicht verbaute Teile"
+          },
+          {
+            "titel": "Transport",
+            "text": "Sendungen unterwegs"
+          },
+          {
+            "titel": "Lager",
+            "text": "Eigene Bestände"
+          },
+          {
+            "titel": "Fertigung",
+            "text": "Laufende Produktion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "folie": "F12",
+      "kapitel": "D3 Sofortmaßnahmen",
+      "fiktiv": true,
+      "sprechtext": "Die Muster GmbH sperrt alle Bestände, lässt beim Kunden die noch nicht verbauten Halter sortieren, stoppt Werkzeug zwei und prüft die eigenen Lagerteile noch einmal auf Dichtheit. Aber vorher testet das Team mit einem Teil, von dem es weiß, dass es undicht ist: Findet unsere Prüfung das Leck überhaupt? Ergebnis: Ist das Teil warm, nein. Ist es abgekühlt, ja. Also wird nur an abgekühlten Teilen sortiert. Merken Sie sich das, das wird in D4 wichtig.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D3: Kunden schützen",
+        "blatt": "D3 Sofortmaßnahmen",
+        "spalten": [
+          "Ort",
+          "Maßnahme",
+          "Verantwortlich",
+          "Datum",
+          "Ergebnis"
+        ],
+        "zeilen": [
+          [
+            "Kunde",
+            "Sperrung, nicht verbaute Halter sortieren",
+            "Qualität",
+            "T+1",
+            "3 weitere NIO"
+          ],
+          [
+            "Transport",
+            "Sendungen identifiziert und gesperrt",
+            "Logistik",
+            "T+1",
+            "2 Paletten zurückgeholt"
+          ],
+          [
+            "Lager",
+            "Dichtheitsprüfung erst nach Abkühlung",
+            "Prüffeld",
+            "T+2",
+            "11 NIO"
+          ],
+          [
+            "Fertigung",
+            "Werkzeug 2 gestoppt, Produktion auf W1",
+            "Gießerei",
+            "T+1",
+            "–"
+          ],
+          [
+            "Kennzeichnung / Clean Point",
+            "Zusatzkennzeichnung, erste saubere Lieferung gemeldet",
+            "Versand",
+            "T+3",
+            "–"
+          ]
+        ],
+        "markiert": [
+          2
+        ],
+        "hinweis": "Erst Prüfmethode absichern, dann sortieren"
+      }
+    },
+    {
+      "id": "S13",
+      "folie": "F12",
+      "kapitel": "D3 Sofortmaßnahmen",
+      "fiktiv": true,
+      "sprechtext": "Geprüfte Teile bekommen eine Zusatzkennzeichnung, und Sie melden dem Kunden die erste saubere Lieferung. So weiß er, ab wann er wieder sicher ist.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D3: Kunden schützen",
+        "blatt": "D3 Sofortmaßnahmen",
+        "spalten": [
+          "Ort",
+          "Maßnahme",
+          "Verantwortlich",
+          "Datum",
+          "Ergebnis"
+        ],
+        "zeilen": [
+          [
+            "Kunde",
+            "Sperrung, nicht verbaute Halter sortieren",
+            "Qualität",
+            "T+1",
+            "3 weitere NIO"
+          ],
+          [
+            "Transport",
+            "Sendungen identifiziert und gesperrt",
+            "Logistik",
+            "T+1",
+            "2 Paletten zurückgeholt"
+          ],
+          [
+            "Lager",
+            "Dichtheitsprüfung erst nach Abkühlung",
+            "Prüffeld",
+            "T+2",
+            "11 NIO"
+          ],
+          [
+            "Fertigung",
+            "Werkzeug 2 gestoppt, Produktion auf W1",
+            "Gießerei",
+            "T+1",
+            "–"
+          ],
+          [
+            "Kennzeichnung / Clean Point",
+            "Zusatzkennzeichnung, erste saubere Lieferung gemeldet",
+            "Versand",
+            "T+3",
+            "–"
+          ]
+        ],
+        "markiert": [
+          4
+        ],
+        "hinweis": "Clean Point: erste saubere Lieferung melden"
+      }
+    },
+    {
+      "id": "S14",
+      "folie": "F13",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "D4, die Ursachenanalyse. Hier passiert ein typischer Fehler: Es wird nur eine Ursache gesucht. Sie brauchen aber immer zwei. Erstens die Auftretensursache: Warum ist der Fehler entstanden? Zweitens die Nichtentdeckungsursache: Warum haben wir ihn nicht gefunden, bevor er beim Kunden war?",
+      "layout": "zwei_spalten",
+      "daten": {
+        "ueberschrift": "D4: Immer zwei Ursachen",
+        "links": {
+          "titel": "Auftreten",
+          "punkte": [
+            "Warum entstanden?"
+          ],
+          "farbe": "orange"
+        },
+        "rechts": {
+          "titel": "Nichtentdeckung",
+          "punkte": [
+            "Warum durchgerutscht?"
+          ],
+          "farbe": "blau"
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "folie": "F14",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "Zuerst das Auftreten. Das Schliffbild der undichten Teile zeigt runde, glatte Poren. Das passt zu Gasporosität, also zu eingeschlossener Luft oder eingeschlossenem Gas, zum Beispiel durch eine unzureichende Entlüftung der Form. Das ist ein starker Hinweis, aber noch kein Beweis.",
+      "layout": "zwei_spalten",
+      "daten": {
+        "ueberschrift": "Schliffbild: runde, glatte Poren",
+        "links": {
+          "titel": "Gaspore",
+          "punkte": [
+            "Rund, glatt",
+            "Eingeschlossene Luft oder Gas",
+            "Passt zum Befund"
+          ],
+          "farbe": "orange"
+        },
+        "rechts": {
+          "titel": "Schwindungslunker",
+          "punkte": [
+            "Zerklüftet, unregelmäßig",
+            "Passt nicht zum Befund"
+          ],
+          "farbe": "grau"
+        }
+      }
+    },
+    {
+      "id": "S16",
+      "folie": "F15",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "Das 5-Why führt Schritt für Schritt weiter. Undicht, weil die Bearbeitung eine Pore an der Dichtfläche angeschnitten hat. Die Pore, weil Luft im Werkzeug eingeschlossen wurde. Eingeschlossen, weil die Entlüftungs- und Vakuumkanäle von Werkzeug zwei nach der Wartung teilweise zugesetzt waren. Und das war möglich, weil der Wartungsplan ihre Reinigung gar nicht vorsah und der Vakuumwert nicht überwacht wurde. Das ist die eigentliche, die systemische Ursache.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "5-Why: Auftreten",
+        "blatt": "5-Why",
+        "spalten": [
+          "Nr.",
+          "Warum?",
+          "Antwort (Auftreten)"
+        ],
+        "zeilen": [
+          [
+            "1",
+            "Warum undicht?",
+            "Pore an Dichtfläche angeschnitten"
+          ],
+          [
+            "2",
+            "Warum Pore?",
+            "Luft im Werkzeug eingeschlossen"
+          ],
+          [
+            "3",
+            "Warum eingeschlossen?",
+            "Entlüftungs- und Vakuumkanäle W2 zugesetzt"
+          ],
+          [
+            "4",
+            "Warum zugesetzt?",
+            "Bei Wartung nicht gereinigt"
+          ],
+          [
+            "5",
+            "Warum nicht gereinigt?",
+            "Wartungsplan ohne Reinigung, Vakuum unüberwacht"
+          ]
+        ],
+        "markiert": [
+          4
+        ],
+        "hinweis": "Zeile 5: systemische Ursache"
+      }
+    },
+    {
+      "id": "S17",
+      "folie": "F16",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "Jetzt die Nichtentdeckung. Die Muster GmbH prüft jedes Teil mit einer Druckabfallprüfung. Warum ist das Leck trotzdem durchgerutscht? Die Teile kamen warm aus der Waschanlage direkt in die Prüfung. Druckabfallprüfungen sind stark temperaturabhängig: Erwärmt sich die Prüfluft während der Messung, steigt der Druck, und das kann ein kleines Leck überdecken.",
+      "layout": "karten",
+      "daten": {
+        "ueberschrift": "Druck über Zeit (schematisch)",
+        "karten": [
+          {
+            "titel": "Leck",
+            "text": "Druck fällt"
+          },
+          {
+            "titel": "Erwärmung",
+            "text": "Druck steigt"
+          },
+          {
+            "titel": "Anzeige",
+            "text": "Fast flach"
+          },
+          {
+            "titel": "Ergebnis",
+            "text": "Scheinbar dicht"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S18",
+      "folie": "F17",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "Und warum wurde warm geprüft? Weil der Prüfplan keine Teiletemperatur festgelegt hat. Dazu kam: Der Test mit dem Leck-Referenzteil lief nur einmal pro Woche und mit einem kalten Teil. So konnte er das Problem gar nicht zeigen. Auch das ist systemisch.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "5-Why: Nichtentdeckung",
+        "blatt": "5-Why",
+        "spalten": [
+          "Nr.",
+          "Warum?",
+          "Antwort (Nichtentdeckung)"
+        ],
+        "zeilen": [
+          [
+            "1",
+            "Warum nicht erkannt?",
+            "Druckabfallprüfung zeigte i. O."
+          ],
+          [
+            "2",
+            "Warum i. O.?",
+            "Teile warm geprüft, Erwärmung überdeckt Leck"
+          ],
+          [
+            "3",
+            "Warum warm geprüft?",
+            "Keine Abkühlstrecke, keine Temperaturmessung"
+          ],
+          [
+            "4",
+            "Warum nicht vorgesehen?",
+            "Prüfplan ohne festgelegte Teiletemperatur"
+          ],
+          [
+            "5",
+            "Ergänzend",
+            "Referenzteil-Check wöchentlich und kalt"
+          ]
+        ],
+        "markiert": [
+          3,
+          4
+        ],
+        "hinweis": "Auch das ist systemisch"
+      }
+    },
+    {
+      "id": "S19",
+      "folie": "F18",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "Ganz wichtig: Eine Ursache ist erst dann bestätigt, wenn Sie sie nachweisen. Am stärksten ist der Nachweis, wenn Sie den Fehler gezielt erzeugen und wieder abstellen können. Hier: Mit gereinigten Kanälen verschwinden die Poren. Und das bekannte Leckteil wird warm nicht erkannt, kalt schon.",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "Nachweis = Fehler ein- und ausschalten",
+        "punkte": [
+          "Auftreten: Kanäle gereinigt, keine Poren",
+          "Nichtentdeckung: Leckteil warm nicht erkannt",
+          "Nichtentdeckung: Leckteil kalt erkannt"
+        ],
+        "hinweis": "Erst nachgewiesen ist eine Ursache bestätigt"
+      }
+    },
+    {
+      "id": "S20",
+      "folie": "F19",
+      "kapitel": "D4 Ursachenanalyse",
+      "fiktiv": true,
+      "sprechtext": "In der Vorlage gibt es dafür zwei getrennte 5-Why-Spalten, eine für das Auftreten und eine für die Nichtentdeckung, jeweils mit einem Feld für den Nachweis. Bleibt eine Spalte leer, sehen Sie die Lücke sofort, und Ihr Kunde auch.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "Leere Spalte = sichtbare Lücke",
+        "blatt": "5-Why",
+        "spalten": [
+          "Nr.",
+          "Auftreten",
+          "Nichtentdeckung"
+        ],
+        "zeilen": [
+          [
+            "1",
+            "Pore an Dichtfläche angeschnitten",
+            ""
+          ],
+          [
+            "2",
+            "Luft im Werkzeug eingeschlossen",
+            ""
+          ],
+          [
+            "3",
+            "Kanäle W2 zugesetzt",
+            ""
+          ],
+          [
+            "4",
+            "Bei Wartung nicht gereinigt",
+            ""
+          ],
+          [
+            "5",
+            "Wartungsplan ohne Reinigung",
+            ""
+          ],
+          [
+            "Nachweis",
+            "Gereinigte Kanäle: keine Poren",
+            ""
+          ]
+        ],
+        "markiert": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hinweis": "Nichtentdeckung leer: Spalte wird rot"
+      }
+    },
+    {
+      "id": "S21",
+      "folie": "F20",
+      "kapitel": "D5 Abstellmaßnahmen",
+      "fiktiv": true,
+      "sprechtext": "D5, die Abstellmaßnahmen. Für jede bestätigte Ursache brauchen Sie eine Maßnahme, und Sie verifizieren vor der Einführung, dass sie wirkt. Gegen das Auftreten: Die Reinigung der Kanäle wird Pflichtpunkt in jeder Wartung, und der Vakuumwert wird bei jedem Schuss überwacht. Liegt er außerhalb der Grenze, wird das Teil automatisch ausgeschleust.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D5: Abstellmaßnahmen",
+        "blatt": "D5 Abstellmaßnahmen",
+        "spalten": [
+          "Ursache",
+          "Abstellmaßnahme",
+          "Verifikation"
+        ],
+        "zeilen": [
+          [
+            "Auftreten",
+            "Kanalreinigung Pflicht in jeder Wartung",
+            "CT-Stichproben ohne relevante Poren"
+          ],
+          [
+            "Auftreten",
+            "Vakuumwert je Schuss, automatische Ausschleusung",
+            "Schlechtes Vakuum: Teil ausgeschleust"
+          ],
+          [
+            "Nichtentdeckung",
+            "Abkühlstrecke vor der Prüfung",
+            "Referenzteil warm: erkannt oder gesperrt"
+          ],
+          [
+            "Nichtentdeckung",
+            "Temperaturmessung mit Verriegelung",
+            "Prüfung startet nur im Temperaturfenster"
+          ],
+          [
+            "Nichtentdeckung",
+            "Leck-Referenzteil zu jedem Schichtbeginn",
+            "Referenzteil warm und kalt erkannt"
+          ]
+        ],
+        "markiert": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "S22",
+      "folie": "F20",
+      "kapitel": "D5 Abstellmaßnahmen",
+      "fiktiv": true,
+      "sprechtext": "Gegen die Nichtentdeckung: eine Abkühlstrecke vor der Prüfung, eine Temperaturmessung, ohne die die Prüfung nicht startet, und ein Test mit dem Leck-Referenzteil zu jedem Schichtbeginn.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D5: Abstellmaßnahmen",
+        "blatt": "D5 Abstellmaßnahmen",
+        "spalten": [
+          "Ursache",
+          "Abstellmaßnahme",
+          "Verifikation"
+        ],
+        "zeilen": [
+          [
+            "Auftreten",
+            "Kanalreinigung Pflicht in jeder Wartung",
+            "CT-Stichproben ohne relevante Poren"
+          ],
+          [
+            "Auftreten",
+            "Vakuumwert je Schuss, automatische Ausschleusung",
+            "Schlechtes Vakuum: Teil ausgeschleust"
+          ],
+          [
+            "Nichtentdeckung",
+            "Abkühlstrecke vor der Prüfung",
+            "Referenzteil warm: erkannt oder gesperrt"
+          ],
+          [
+            "Nichtentdeckung",
+            "Temperaturmessung mit Verriegelung",
+            "Prüfung startet nur im Temperaturfenster"
+          ],
+          [
+            "Nichtentdeckung",
+            "Leck-Referenzteil zu jedem Schichtbeginn",
+            "Referenzteil warm und kalt erkannt"
+          ]
+        ],
+        "markiert": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "S23",
+      "folie": "F21",
+      "kapitel": "D5 Abstellmaßnahmen",
+      "fiktiv": true,
+      "sprechtext": "Ein Warnsignal in jedem 8D ist aus meiner Sicht der Satz „Mitarbeiter geschult“ als einzige Maßnahme. Er ändert nichts an dem System, das den Fehler zugelassen hat. Schulung kann eine Maßnahme ergänzen, ersetzt sie aber nicht.",
+      "layout": "zwei_spalten",
+      "daten": {
+        "ueberschrift": "Warnsignal: „Mitarbeiter geschult“",
+        "links": {
+          "titel": "Mitarbeiter geschult",
+          "punkte": [
+            "Als einzige Maßnahme ungenügend",
+            "Ändert das System nicht"
+          ],
+          "farbe": "rot"
+        },
+        "rechts": {
+          "titel": "System ändern",
+          "punkte": [
+            "Schulung ergänzt nur",
+            "Ersetzt keine Maßnahme"
+          ],
+          "farbe": "gruen"
+        }
+      }
+    },
+    {
+      "id": "S24",
+      "folie": "F22",
+      "kapitel": "D6 Wirksamkeit",
+      "fiktiv": true,
+      "sprechtext": "D6: umsetzen und die Wirksamkeit bestätigen. Einführen allein reicht nicht. Sie zeigen mit Daten, dass die Maßnahme wirkt. Im Beispiel sind das vier Wochen Serienbeobachtung, Stichproben im Computertomografen und keine weiteren Befunde beim Kunden.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D6: Wirksamkeit mit Daten belegen",
+        "blatt": "D6 Wirksamkeit",
+        "spalten": [
+          "Feld",
+          "Inhalt"
+        ],
+        "zeilen": [
+          [
+            "Umgesetzt am",
+            "T+15"
+          ],
+          [
+            "Wirksamkeitsnachweis",
+            "4 Wochen Serienbeobachtung"
+          ],
+          [
+            "Stichproben",
+            "Computertomograf: keine relevanten Poren"
+          ],
+          [
+            "Prozessdaten",
+            "Vakuum und Temperatur in Ordnung"
+          ],
+          [
+            "Ergebnis",
+            "0 weitere Befunde beim Kunden"
+          ],
+          [
+            "Sofortmaßnahme beendet am",
+            "Nach Nachweis, mit Kunde"
+          ]
+        ],
+        "markiert": [
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "id": "S25",
+      "folie": "F23",
+      "kapitel": "D6 Wirksamkeit",
+      "fiktiv": true,
+      "sprechtext": "Erst dann, und in Abstimmung mit dem Kunden, beenden Sie die Sofortmaßnahmen aus D3. Diese Reihenfolge wird oft vergessen.",
+      "layout": "zeitstrahl",
+      "daten": {
+        "ueberschrift": "Sofortmaßnahme beenden – erst nach Wirksamkeitsnachweis",
+        "schritte": [
+          {
+            "label": "D3",
+            "text": "Sofortmaßnahme läuft"
+          },
+          {
+            "label": "D5",
+            "text": "Abstellmaßnahme eingeführt"
+          },
+          {
+            "label": "D6",
+            "text": "Wirksamkeit belegt"
+          },
+          {
+            "label": "D3",
+            "text": "Sofortmaßnahme beenden"
+          }
+        ],
+        "aktiv": 3
+      }
+    },
+    {
+      "id": "S26",
+      "folie": "F24",
+      "kapitel": "D7 Wiederauftreten verhindern",
+      "fiktiv": true,
+      "sprechtext": "D7: Wiederauftreten verhindern. D5 und D6 lösen dieses eine Problem. D7 sorgt dafür, dass es nirgendwo wieder passiert. Die Muster GmbH aktualisiert Prozess-FMEA, Produktionslenkungsplan, also Control Plan, Wartungsplan und Prüfanweisung.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D7: Wiederauftreten verhindern",
+        "blatt": "D7 Checkliste",
+        "spalten": [
+          "Dokument",
+          "Änderung",
+          "Status"
+        ],
+        "zeilen": [
+          [
+            "Prozess-FMEA",
+            "Entlüftung und Prüftemperatur neu bewertet",
+            "erledigt"
+          ],
+          [
+            "Control Plan",
+            "Temperaturfenster, Referenzteil je Schicht",
+            "erledigt"
+          ],
+          [
+            "Wartungsplan",
+            "Kanalreinigung als Pflichtpunkt",
+            "erledigt"
+          ],
+          [
+            "Arbeitsanweisung",
+            "Prüfanweisung Dichtheitsprüfplatz aktualisiert",
+            "erledigt"
+          ],
+          [
+            "Übertragung auf ähnliche Prozesse",
+            "Alle Werkzeuge, alle Prüfplätze im Werk",
+            "offen"
+          ]
+        ],
+        "markiert": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "S27",
+      "folie": "F24",
+      "kapitel": "D7 Wiederauftreten verhindern",
+      "fiktiv": true,
+      "sprechtext": "Und sie überträgt die Erkenntnis auf alle anderen Druckgießwerkzeuge und auf alle Druckabfall-Prüfplätze im Werk, auch dort, wo noch nichts passiert ist.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D7: Wiederauftreten verhindern",
+        "blatt": "D7 Checkliste",
+        "spalten": [
+          "Dokument",
+          "Änderung",
+          "Status"
+        ],
+        "zeilen": [
+          [
+            "Prozess-FMEA",
+            "Entlüftung und Prüftemperatur neu bewertet",
+            "erledigt"
+          ],
+          [
+            "Control Plan",
+            "Temperaturfenster, Referenzteil je Schicht",
+            "erledigt"
+          ],
+          [
+            "Wartungsplan",
+            "Kanalreinigung als Pflichtpunkt",
+            "erledigt"
+          ],
+          [
+            "Arbeitsanweisung",
+            "Prüfanweisung Dichtheitsprüfplatz aktualisiert",
+            "erledigt"
+          ],
+          [
+            "Übertragung auf ähnliche Prozesse",
+            "Alle Werkzeuge, alle Prüfplätze im Werk",
+            "erledigt"
+          ]
+        ],
+        "markiert": [
+          4
+        ],
+        "hinweis": "Auch dort, wo noch nichts passiert ist"
+      }
+    },
+    {
+      "id": "S28",
+      "folie": "F25",
+      "kapitel": "D8 Abschluss",
+      "fiktiv": true,
+      "sprechtext": "D8: Abschluss. Der Kunde bestätigt den Abschluss, der Bericht wird abgelegt. Und: Würdigen Sie das Team. Das klingt banal, ist aber ausdrücklich Teil der Methode.",
+      "layout": "tabelle",
+      "daten": {
+        "ueberschrift": "D8: Abschluss und Würdigung",
+        "blatt": "D8 Abschluss",
+        "spalten": [
+          "Feld",
+          "Status"
+        ],
+        "zeilen": [
+          [
+            "Abschluss durch Kunde",
+            "Bestätigt"
+          ],
+          [
+            "Bericht",
+            "Abgelegt"
+          ],
+          [
+            "Würdigung",
+            "Team im Werks-Meeting gewürdigt"
+          ],
+          [
+            "Ampel D0–D2",
+            "Grün"
+          ],
+          [
+            "Ampel D3–D5",
+            "Grün"
+          ],
+          [
+            "Ampel D6–D8",
+            "Grün"
+          ]
+        ],
+        "markiert": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "S29",
+      "folie": "F26",
+      "kapitel": "Fazit",
+      "fiktiv": false,
+      "sprechtext": "Drei Dinge zum Mitnehmen. Erstens: Sofortmaßnahmen schützen den Kunden, Abstellmaßnahmen beseitigen die Ursache. Verwechseln Sie die beiden nicht.",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "Drei Dinge zum Mitnehmen",
+        "punkte": [
+          "Sofortmaßnahme schützt, Abstellmaßnahme beseitigt"
+        ]
+      }
+    },
+    {
+      "id": "S30",
+      "folie": "F26",
+      "kapitel": "Fazit",
+      "fiktiv": false,
+      "sprechtext": "Zweitens: In D4 brauchen Sie immer zwei Ursachen, Auftreten und Nichtentdeckung, und beide müssen nachgewiesen sein.",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "Drei Dinge zum Mitnehmen",
+        "punkte": [
+          "Sofortmaßnahme schützt, Abstellmaßnahme beseitigt",
+          "D4: zwei Ursachen, beide nachgewiesen"
+        ]
+      }
+    },
+    {
+      "id": "S31",
+      "folie": "F26",
+      "kapitel": "Fazit",
+      "fiktiv": false,
+      "sprechtext": "Drittens: Eine Sofortmaßnahme endet erst, wenn die Wirksamkeit der Abstellmaßnahme belegt ist.",
+      "layout": "punkte",
+      "daten": {
+        "ueberschrift": "Drei Dinge zum Mitnehmen",
+        "punkte": [
+          "Sofortmaßnahme schützt, Abstellmaßnahme beseitigt",
+          "D4: zwei Ursachen, beide nachgewiesen",
+          "Sofortmaßnahme endet erst nach Wirksamkeitsnachweis"
+        ]
+      }
+    },
+    {
+      "id": "S32",
+      "folie": "F27",
+      "kapitel": "Kostenlose Vorlage",
+      "fiktiv": false,
+      "sprechtext": "Die 8D-Vorlage aus diesem Video bekommen Sie kostenlos. Das ist unsere eigene Vorlage, der Link steht ganz oben in der Beschreibung. Sie hat getrennte Spalten für Auftretens- und Nichtentdeckungsursache und eine Statusampel für alle Disziplinen. Probieren Sie sie bei Ihrem nächsten 8D aus.",
+      "layout": "cta",
+      "daten": {
+        "ueberschrift": "Kostenlose 8D-Vorlage",
+        "text": "Link in der Beschreibung · Eigenes Produkt · kostenlos",
+        "button": "Vorlage kostenlos holen"
+      }
+    }
+  ]
+}

@@ -1,3 +1,5 @@
 tools/tts/stimmen/
 *.wav
 __pycache__/
+build/
+videos/*/export/*.mp4

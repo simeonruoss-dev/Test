@@ -11,6 +11,9 @@ Produziere ein Video zum Thema: $ARGUMENTS
    b. `skript-autor` → `02-skript.md`
    c. `packaging` → `03-packaging.md`
    d. `qualitaets-pruefer` → `04-review.md`
-   e. `sprecher` → `voiceover/` (nur bei 🟢/🟡 nach Fixes; KI-Stimme, Hinweis in Beschreibung)
+   e. `folien-designer` → `schnittplan.json`
+   f. `ton-meister` → Aussprache/Tempo, `--nur ton`
+   g. `video-produzent` → `python3 tools/video/produziere.py videos/<slug>` → `export/`
+   h. `video-pruefer` → `export/abnahme.md`; Korrekturschleife bis 🟢 (max. 2 Runden)
 4. Bei 🟡/🔴 im Review: Fixes umsetzen lassen und erneut prüfen (max. 2 Iterationen).
-5. Abschluss: Ampel, empfohlener Titel, Thumbnail-Konzept, geschätzte Videolänge, offene To-dos für die Produktion.
+5. Abschluss: Upload-Paket (video.mp4, thumbnail.png, untertitel-de.srt, Titel, Beschreibung mit Kapiteln und Links), Ampel.

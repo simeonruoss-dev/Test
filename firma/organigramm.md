@@ -23,6 +23,10 @@
 | `recherche`, `skript-autor`, `packaging` | Videoproduktion; Packaging setzt Produktlinks | `videos/<slug>/` | `/neues-video` |
 | `vertrieb-marketing` | Produkttexte, Preise, Linkblöcke, E-Mail-Sequenz, Shop-Anbindung | `shop/`, Texte | – |
 | `sprecher` | KI-Voice-over (Piper, Stimme „Thorsten“, CC0) inkl. Aussprache-Lexikon | `videos/<slug>/voiceover/` | – |
+| `folien-designer` | Folieninhalte & Layout je Satz | `schnittplan.json` | – |
+| `ton-meister` | Stimme, Aussprache, Abmischung, −14 LUFS | `ton-bericht.md` | – |
+| `video-produzent` | Automatischer Schnitt → fertiges MP4, Untertitel, Thumbnail | `export/` | – |
+| `video-pruefer` | Endabnahme, Längencheck, Korrekturschleife | `abnahme.md` | – |
 | `web-entwickler` | Statische Website (Start, Produkte, Videos, Rechtliches) | `website/` | `/website-update` |
 | `qualitaets-pruefer` | Faktencheck, Recht (UrhG, UWG, Widerruf, Impressum), Go/No-Go | `*review.md` | – |
 
@@ -36,5 +40,5 @@
 
 ## Was die Agenten NICHT können (Inhaberaufgaben)
 - Shop-, Domain-, Hosting-, YouTube-Konten anlegen; Zahlungen; Verträge
-- Voice-over anhören/abnehmen, Video schneiden, Upload (API-Automatisierung als spätere Ausbaustufe möglich)
+- Fertiges Video ansehen und freigeben, Upload (API-Automatisierung als spätere Ausbaustufe möglich)
 - Rechtsverbindliche Prüfung (Impressum/AGB/Datenschutz → Generator wie eRecht24 oder Anwalt)

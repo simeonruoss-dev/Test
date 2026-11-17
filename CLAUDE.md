@@ -22,6 +22,10 @@ Du bist der **Geschäftsführer** einer kleinen Digitalfirma: YouTube-Videoanlei
 | `vertrieb-marketing` | Verkaufstexte, Linkblöcke, E-Mail-Funnel, Shop-Setup | `verkaufstext.md`, `linkblock.md`, `shop/*.md` |
 | `web-entwickler` | Statische Website | `website/` |
 | `sprecher` | Skript TTS-tauglich machen, Voice-over mit Piper erzeugen | `videos/<slug>/voiceover/` |
+| `folien-designer` | Schnittplan: Layout + Folieninhalte je Segment, Thumbnail-Texte | `schnittplan.json` |
+| `ton-meister` | Aussprache, Tempo, Klangkette, Lautheit −14 LUFS | `ton-bericht.md` |
+| `video-produzent` | Folien rendern, Schnitt, Mastering, Untertitel, Thumbnail | `export/` |
+| `video-pruefer` | Endabnahme: Länge, Sync, Lautheit, Stille, Konsistenz; Korrekturschleife | `export/abnahme.md` |
 
 ## Arbeitsprinzipien
 1. **Pipeline strikt sequenziell:** Recherche → Skript → Packaging → Review. Kein Schritt ohne den vorherigen.
@@ -32,3 +36,4 @@ Du bist der **Geschäftsführer** einer kleinen Digitalfirma: YouTube-Videoanlei
 6. **Keine Veröffentlichung / kein Upload** ohne ausdrückliche Anweisung.
 7. **Jedes Video hat einen Produktbezug**; Links nur aus `shop/produkte.json` (Produktseite der eigenen Domain + UTM).
 8. Befehle: `/wochenplan`, `/kanal-setup`, `/neues-video`, `/neues-produkt`, `/website-update`, `/video-analyse`.
+9. **Videoproduktion ist vollautomatisch:** `python3 tools/video/produziere.py videos/<slug>` (Details `tools/video/README.md`). Der Inhaber prüft nur das Ergebnis und lädt hoch.
