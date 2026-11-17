@@ -1,0 +1,707 @@
+1
+00:00:00,350 --> 00:00:02,176
+Ein Kunde meldet undichte Bauteile.
+
+2
+00:00:02,176 --> 00:00:04,524
+Er will schnell wissen, wie Sie ihn schützen,
+
+3
+00:00:04,524 --> 00:00:07,707
+und am Ende will er einen 8D-Report sehen, der fachlich hält.
+
+4
+00:00:07,707 --> 00:00:11,098
+Ob dieser Report trägt, entscheidet sich dabei nicht am Formular,
+
+5
+00:00:11,098 --> 00:00:13,237
+sondern an einer Frage in Disziplin vier.
+
+6
+00:00:14,150 --> 00:00:18,504
+In diesem Video gehen wir alle acht Disziplinen an einem durchgängigen Praxisfall
+
+7
+00:00:18,504 --> 00:00:20,761
+durch, vom ersten Anruf bis zum Abschluss.
+
+8
+00:00:20,761 --> 00:00:23,986
+Und ich zeige Ihnen jeden Schritt direkt in unserer eigenen,
+
+9
+00:00:23,986 --> 00:00:25,760
+kostenlosen 8D-Vorlage für Excel.
+
+10
+00:00:26,670 --> 00:00:27,904
+Kurz zur Einordnung.
+
+11
+00:00:27,904 --> 00:00:32,100
+8D steht für acht Disziplinen, also acht Arbeitsschritte, D1 bis D8.
+
+12
+00:00:32,100 --> 00:00:34,754
+Manche stellen noch einen Schritt D0 voran:
+
+13
+00:00:34,754 --> 00:00:35,494
+die Planung.
+
+14
+00:00:36,390 --> 00:00:38,945
+Als Ursprung wird meist Ford genannt,
+
+15
+00:00:38,945 --> 00:00:43,571
+mit einem Handbuch namens „Team Oriented Problem Solving“ von 1987.
+
+16
+00:00:43,571 --> 00:00:45,781
+Ganz unumstritten ist das nicht:
+
+17
+00:00:45,781 --> 00:00:49,579
+Manche Quellen sehen Vorläufer in einer US-Militärnorm.
+
+18
+00:00:50,470 --> 00:00:55,592
+In der deutschen Automobilindustrie ist der VDA-Band „8D – Problemlösung in 8
+
+19
+00:00:55,592 --> 00:00:58,519
+Disziplinen“ von 2018 eine gängige Referenz.
+
+20
+00:00:58,519 --> 00:01:03,043
+Und die IATF 16949 verlangt einen definierten Problemlösungsprozess,
+
+21
+00:01:03,043 --> 00:01:05,571
+schreibt aber nicht wörtlich „8D“ vor.
+
+22
+00:01:05,571 --> 00:01:09,961
+Das 8D-Format fordern meist Ihre Kunden, oft mit eigenem Formular.
+
+23
+00:01:09,961 --> 00:01:10,826
+Deshalb gilt:
+
+24
+00:01:10,826 --> 00:01:12,622
+Die Kundenvorgabe geht vor.
+
+25
+00:01:13,510 --> 00:01:15,682
+Unser Fall ist fiktiv, aber realistisch.
+
+26
+00:01:15,682 --> 00:01:17,801
+Die Muster GmbH ist eine Druckgießerei.
+
+27
+00:01:17,801 --> 00:01:22,200
+Sie liefert einen Halter aus Aluminium-Druckguss mit integriertem Kühlmittelkanal
+
+28
+00:01:22,200 --> 00:01:23,775
+an einen Automobilhersteller.
+
+29
+00:01:23,775 --> 00:01:24,698
+Der Kunde meldet:
+
+30
+00:01:24,698 --> 00:01:29,151
+Beim Dichtheitstest am Bandende sind sechs von zwölfhundert Pumpenmodulen undicht.
+
+31
+00:01:29,151 --> 00:01:32,736
+Die Leckage sitzt an der bearbeiteten Dichtfläche unseres Halters.
+
+32
+00:01:33,630 --> 00:01:34,405
+D0, Planung.
+
+33
+00:01:34,405 --> 00:01:35,697
+Bevor Sie losrennen:
+
+34
+00:01:35,697 --> 00:01:37,635
+Ist das überhaupt ein 8D-Fall?
+
+35
+00:01:37,635 --> 00:01:40,735
+Bei Auswirkung beim Kunden und unklarer Ursache:
+
+36
+00:01:40,735 --> 00:01:40,929
+ja.
+
+37
+00:01:40,929 --> 00:01:45,902
+Klären Sie außerdem gleich, ob der Kunde ein eigenes Formular oder Portal und
+
+38
+00:01:45,902 --> 00:01:47,388
+eigene Fristen vorgibt.
+
+39
+00:01:48,270 --> 00:01:49,004
+D1, das Team.
+
+40
+00:01:49,004 --> 00:01:52,055
+Ein 8D ist keine Einzelaufgabe der Qualitätsabteilung.
+
+41
+00:01:52,055 --> 00:01:55,106
+Ins Team gehören Leute mit Produkt- und Prozesswissen:
+
+42
+00:01:55,106 --> 00:01:57,705
+hier der Gießereimeister, die Werkzeugwartung,
+
+43
+00:01:57,705 --> 00:02:01,434
+der Verantwortliche für die Dichtheitsprüfung und die Bearbeitung.
+
+44
+00:02:01,434 --> 00:02:05,898
+Dazu ein Teamleiter, der entscheiden darf, und ein Sponsor aus der Werkleitung,
+
+45
+00:02:05,898 --> 00:02:07,310
+der für Ressourcen sorgt.
+
+46
+00:02:08,230 --> 00:02:09,923
+D2, die Problembeschreibung.
+
+47
+00:02:09,923 --> 00:02:11,556
+Hier entscheidet sich viel.
+
+48
+00:02:11,556 --> 00:02:14,278
+„Teil undicht“ ist keine Problembeschreibung.
+
+49
+00:02:14,278 --> 00:02:15,729
+Nutzen Sie die W-Fragen:
+
+50
+00:02:15,729 --> 00:02:18,149
+Was, wo, wann, wie viele, und vor allem:
+
+51
+00:02:18,149 --> 00:02:20,084
+Was ist betroffen und was nicht?
+
+52
+00:02:20,990 --> 00:02:22,521
+Im Fall zeigt der Vergleich:
+
+53
+00:02:22,521 --> 00:02:25,092
+Alle undichten Teile stammen aus Werkzeug zwei,
+
+54
+00:02:25,092 --> 00:02:27,936
+und alle wurden nach einer Werkzeugwartung gegossen.
+
+55
+00:02:27,936 --> 00:02:29,248
+Teile aus Werkzeug eins:
+
+56
+00:02:29,248 --> 00:02:29,905
+unauffällig.
+
+57
+00:02:29,905 --> 00:02:31,327
+Teile von vor der Wartung:
+
+58
+00:02:31,327 --> 00:02:31,983
+unauffällig.
+
+59
+00:02:31,983 --> 00:02:35,757
+Diese Gegenüberstellung „ist“ und „ist nicht“ grenzt die Ursache ein,
+
+60
+00:02:35,757 --> 00:02:37,726
+bevor die Analyse überhaupt beginnt.
+
+61
+00:02:37,726 --> 00:02:41,226
+In der Vorlage tragen Sie das in zwei Spalten nebeneinander ein.
+
+62
+00:02:42,110 --> 00:02:43,269
+D3, Sofortmaßnahmen.
+
+63
+00:02:43,269 --> 00:02:43,791
+Ihr Ziel:
+
+64
+00:02:43,791 --> 00:02:47,269
+den Kunden schützen, solange die Ursache noch unbekannt ist.
+
+65
+00:02:47,269 --> 00:02:50,458
+Eine Sofortmaßnahme ist ausdrücklich keine Dauerlösung.
+
+66
+00:02:50,458 --> 00:02:54,168
+Denken Sie an jeden Ort, an dem fehlerhafte Teile liegen können:
+
+67
+00:02:54,168 --> 00:02:58,979
+beim Kunden, auf dem Transportweg, im eigenen Lager und in der laufenden Fertigung.
+
+68
+00:02:59,870 --> 00:03:01,994
+Die Muster GmbH sperrt alle Bestände,
+
+69
+00:03:01,994 --> 00:03:05,437
+lässt beim Kunden die noch nicht verbauten Halter sortieren,
+
+70
+00:03:05,437 --> 00:03:10,029
+stoppt Werkzeug zwei und prüft die eigenen Lagerteile noch einmal auf Dichtheit.
+
+71
+00:03:10,029 --> 00:03:14,678
+Aber vorher testet das Team mit einem Teil, von dem es weiß, dass es undicht ist:
+
+72
+00:03:14,678 --> 00:03:17,031
+Findet unsere Prüfung das Leck überhaupt?
+
+73
+00:03:17,031 --> 00:03:17,547
+Ergebnis:
+
+74
+00:03:17,547 --> 00:03:18,925
+Ist das Teil warm, nein.
+
+75
+00:03:18,925 --> 00:03:20,130
+Ist es abgekühlt, ja.
+
+76
+00:03:20,130 --> 00:03:22,713
+Also wird nur an abgekühlten Teilen sortiert.
+
+77
+00:03:22,713 --> 00:03:25,238
+Merken Sie sich das, das wird in D4 wichtig.
+
+78
+00:03:26,150 --> 00:03:28,611
+Geprüfte Teile bekommen eine Zusatzkennzeichnung,
+
+79
+00:03:28,611 --> 00:03:31,324
+und Sie melden dem Kunden die erste saubere Lieferung.
+
+80
+00:03:31,324 --> 00:03:33,383
+So weiß er, ab wann er wieder sicher ist.
+
+81
+00:03:34,270 --> 00:03:35,584
+D4, die Ursachenanalyse.
+
+82
+00:03:35,584 --> 00:03:37,500
+Hier passiert ein typischer Fehler:
+
+83
+00:03:37,500 --> 00:03:39,306
+Es wird nur eine Ursache gesucht.
+
+84
+00:03:39,306 --> 00:03:40,894
+Sie brauchen aber immer zwei.
+
+85
+00:03:40,894 --> 00:03:42,536
+Erstens die Auftretensursache:
+
+86
+00:03:42,536 --> 00:03:44,288
+Warum ist der Fehler entstanden?
+
+87
+00:03:44,288 --> 00:03:46,314
+Zweitens die Nichtentdeckungsursache:
+
+88
+00:03:46,314 --> 00:03:49,653
+Warum haben wir ihn nicht gefunden, bevor er beim Kunden war?
+
+89
+00:03:50,550 --> 00:03:51,721
+Zuerst das Auftreten.
+
+90
+00:03:51,721 --> 00:03:55,179
+Das Schliffbild der undichten Teile zeigt runde, glatte Poren.
+
+91
+00:03:55,179 --> 00:03:59,808
+Das passt zu Gasporosität, also zu eingeschlossener Luft oder eingeschlossenem Gas,
+
+92
+00:03:59,808 --> 00:04:03,043
+zum Beispiel durch eine unzureichende Entlüftung der Form.
+
+93
+00:04:03,043 --> 00:04:05,887
+Das ist ein starker Hinweis, aber noch kein Beweis.
+
+94
+00:04:06,790 --> 00:04:09,044
+Das 5-Why führt Schritt für Schritt weiter.
+
+95
+00:04:09,044 --> 00:04:13,081
+Undicht, weil die Bearbeitung eine Pore an der Dichtfläche angeschnitten hat.
+
+96
+00:04:13,081 --> 00:04:15,859
+Die Pore, weil Luft im Werkzeug eingeschlossen wurde.
+
+97
+00:04:15,859 --> 00:04:20,106
+Eingeschlossen, weil die Entlüftungs- und Vakuumkanäle von Werkzeug zwei nach der
+
+98
+00:04:20,106 --> 00:04:21,888
+Wartung teilweise zugesetzt waren.
+
+99
+00:04:21,888 --> 00:04:26,187
+Und das war möglich, weil der Wartungsplan ihre Reinigung gar nicht vorsah und der
+
+100
+00:04:26,187 --> 00:04:27,917
+Vakuumwert nicht überwacht wurde.
+
+101
+00:04:27,917 --> 00:04:30,486
+Das ist die eigentliche, die systemische Ursache.
+
+102
+00:04:31,390 --> 00:04:32,767
+Jetzt die Nichtentdeckung.
+
+103
+00:04:32,767 --> 00:04:36,052
+Die Muster GmbH prüft jedes Teil mit einer Druckabfallprüfung.
+
+104
+00:04:36,052 --> 00:04:38,330
+Warum ist das Leck trotzdem durchgerutscht?
+
+105
+00:04:38,330 --> 00:04:41,667
+Die Teile kamen warm aus der Waschanlage direkt in die Prüfung.
+
+106
+00:04:41,667 --> 00:04:44,369
+Druckabfallprüfungen sind stark temperaturabhängig:
+
+107
+00:04:44,369 --> 00:04:47,759
+Erwärmt sich die Prüfluft während der Messung, steigt der Druck,
+
+108
+00:04:47,759 --> 00:04:49,931
+und das kann ein kleines Leck überdecken.
+
+109
+00:04:50,830 --> 00:04:52,394
+Und warum wurde warm geprüft?
+
+110
+00:04:52,394 --> 00:04:55,360
+Weil der Prüfplan keine Teiletemperatur festgelegt hat.
+
+111
+00:04:55,360 --> 00:04:55,845
+Dazu kam:
+
+112
+00:04:55,845 --> 00:05:00,213
+Der Test mit dem Leck-Referenzteil lief nur einmal pro Woche und mit einem kalten
+
+113
+00:05:00,213 --> 00:05:00,483
+Teil.
+
+114
+00:05:00,483 --> 00:05:02,748
+So konnte er das Problem gar nicht zeigen.
+
+115
+00:05:02,748 --> 00:05:04,042
+Auch das ist systemisch.
+
+116
+00:05:04,950 --> 00:05:05,604
+Ganz wichtig:
+
+117
+00:05:05,604 --> 00:05:08,721
+Eine Ursache ist erst dann bestätigt, wenn Sie sie nachweisen.
+
+118
+00:05:08,721 --> 00:05:12,643
+Am stärksten ist der Nachweis, wenn Sie den Fehler gezielt erzeugen und wieder
+
+119
+00:05:12,643 --> 00:05:13,498
+abstellen können.
+
+120
+00:05:13,498 --> 00:05:13,749
+Hier:
+
+121
+00:05:13,749 --> 00:05:16,113
+Mit gereinigten Kanälen verschwinden die Poren.
+
+122
+00:05:16,113 --> 00:05:19,230
+Und das bekannte Leckteil wird warm nicht erkannt, kalt schon.
+
+123
+00:05:20,150 --> 00:05:23,201
+In der Vorlage gibt es dafür zwei getrennte 5-Why-Spalten,
+
+124
+00:05:23,201 --> 00:05:26,147
+eine für das Auftreten und eine für die Nichtentdeckung,
+
+125
+00:05:26,147 --> 00:05:28,251
+jeweils mit einem Feld für den Nachweis.
+
+126
+00:05:28,251 --> 00:05:32,039
+Bleibt eine Spalte leer, sehen Sie die Lücke sofort, und Ihr Kunde auch.
+
+127
+00:05:32,950 --> 00:05:34,310
+D5, die Abstellmaßnahmen.
+
+128
+00:05:34,310 --> 00:05:37,303
+Für jede bestätigte Ursache brauchen Sie eine Maßnahme,
+
+129
+00:05:37,303 --> 00:05:40,350
+und Sie verifizieren vor der Einführung, dass sie wirkt.
+
+130
+00:05:40,350 --> 00:05:41,438
+Gegen das Auftreten:
+
+131
+00:05:41,438 --> 00:05:44,702
+Die Reinigung der Kanäle wird Pflichtpunkt in jeder Wartung,
+
+132
+00:05:44,702 --> 00:05:47,477
+und der Vakuumwert wird bei jedem Schuss überwacht.
+
+133
+00:05:47,477 --> 00:05:51,340
+Liegt er außerhalb der Grenze, wird das Teil automatisch ausgeschleust.
+
+134
+00:05:52,230 --> 00:05:53,525
+Gegen die Nichtentdeckung:
+
+135
+00:05:53,525 --> 00:05:56,465
+eine Abkühlstrecke vor der Prüfung, eine Temperaturmessung,
+
+136
+00:05:56,465 --> 00:05:58,208
+ohne die die Prüfung nicht startet,
+
+137
+00:05:58,208 --> 00:06:01,297
+und ein Test mit dem Leck-Referenzteil zu jedem Schichtbeginn.
+
+138
+00:06:02,190 --> 00:06:06,809
+Ein Warnsignal in jedem 8D ist aus meiner Sicht der Satz „Mitarbeiter geschult“ als
+
+139
+00:06:06,809 --> 00:06:07,755
+einzige Maßnahme.
+
+140
+00:06:07,755 --> 00:06:11,206
+Er ändert nichts an dem System, das den Fehler zugelassen hat.
+
+141
+00:06:11,206 --> 00:06:14,601
+Schulung kann eine Maßnahme ergänzen, ersetzt sie aber nicht.
+
+142
+00:06:15,510 --> 00:06:15,682
+D6:
+
+143
+00:06:15,682 --> 00:06:17,977
+umsetzen und die Wirksamkeit bestätigen.
+
+144
+00:06:17,977 --> 00:06:19,699
+Einführen allein reicht nicht.
+
+145
+00:06:19,699 --> 00:06:22,339
+Sie zeigen mit Daten, dass die Maßnahme wirkt.
+
+146
+00:06:22,339 --> 00:06:25,265
+Im Beispiel sind das vier Wochen Serienbeobachtung,
+
+147
+00:06:25,265 --> 00:06:29,454
+Stichproben im Computertomografen und keine weiteren Befunde beim Kunden.
+
+148
+00:06:30,350 --> 00:06:35,315
+Erst dann, und in Abstimmung mit dem Kunden, beenden Sie die Sofortmaßnahmen aus D3.
+
+149
+00:06:35,315 --> 00:06:37,502
+Diese Reihenfolge wird oft vergessen.
+
+150
+00:06:38,390 --> 00:06:38,587
+D7:
+
+151
+00:06:38,587 --> 00:06:40,360
+Wiederauftreten verhindern.
+
+152
+00:06:40,360 --> 00:06:42,724
+D5 und D6 lösen dieses eine Problem.
+
+153
+00:06:42,724 --> 00:06:46,008
+D7 sorgt dafür, dass es nirgendwo wieder passiert.
+
+154
+00:06:46,008 --> 00:06:50,408
+Die Muster GmbH aktualisiert Prozess-FMEA, Produktionslenkungsplan,
+
+155
+00:06:50,408 --> 00:06:53,692
+also Control Plan, Wartungsplan und Prüfanweisung.
+
+156
+00:06:54,590 --> 00:06:58,791
+Und sie überträgt die Erkenntnis auf alle anderen Druckgießwerkzeuge und auf alle
+
+157
+00:06:58,791 --> 00:07:02,473
+Druckabfall-Prüfplätze im Werk, auch dort, wo noch nichts passiert ist.
+
+158
+00:07:03,390 --> 00:07:03,565
+D8:
+
+159
+00:07:03,565 --> 00:07:04,147
+Abschluss.
+
+160
+00:07:04,147 --> 00:07:07,697
+Der Kunde bestätigt den Abschluss, der Bericht wird abgelegt.
+
+161
+00:07:07,697 --> 00:07:07,929
+Und:
+
+162
+00:07:07,929 --> 00:07:09,210
+Würdigen Sie das Team.
+
+163
+00:07:09,210 --> 00:07:12,527
+Das klingt banal, ist aber ausdrücklich Teil der Methode.
+
+164
+00:07:13,430 --> 00:07:14,810
+Drei Dinge zum Mitnehmen.
+
+165
+00:07:14,810 --> 00:07:15,252
+Erstens:
+
+166
+00:07:15,252 --> 00:07:19,503
+Sofortmaßnahmen schützen den Kunden, Abstellmaßnahmen beseitigen die Ursache.
+
+167
+00:07:19,503 --> 00:07:21,325
+Verwechseln Sie die beiden nicht.
+
+168
+00:07:22,230 --> 00:07:22,762
+Zweitens:
+
+169
+00:07:22,762 --> 00:07:26,897
+In D4 brauchen Sie immer zwei Ursachen, Auftreten und Nichtentdeckung,
+
+170
+00:07:26,897 --> 00:07:28,964
+und beide müssen nachgewiesen sein.
+
+171
+00:07:29,870 --> 00:07:30,396
+Drittens:
+
+172
+00:07:30,396 --> 00:07:35,303
+Eine Sofortmaßnahme endet erst, wenn die Wirksamkeit der Abstellmaßnahme belegt ist.
+
+173
+00:07:36,190 --> 00:07:39,247
+Die 8D-Vorlage aus diesem Video bekommen Sie kostenlos.
+
+174
+00:07:39,247 --> 00:07:43,470
+Das ist unsere eigene Vorlage, der Link steht ganz oben in der Beschreibung.
+
+175
+00:07:43,470 --> 00:07:47,805
+Sie hat getrennte Spalten für Auftretens- und Nichtentdeckungsursache und eine
+
+176
+00:07:47,805 --> 00:07:49,639
+Statusampel für alle Disziplinen.
+
+177
+00:07:49,639 --> 00:07:52,084
+Probieren Sie sie bei Ihrem nächsten 8D aus.
