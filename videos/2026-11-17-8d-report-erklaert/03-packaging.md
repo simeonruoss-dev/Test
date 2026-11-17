@@ -35,7 +35,7 @@
 
 ```
 8D-Report erklärt: Alle 8 Disziplinen (D0–D8) an einem durchgängigen Praxisfall – von der Reklamation bis zum Abschluss.
-Mit dem häufigsten Stolperstein im 8D: Auftretens- UND Nichtentdeckungsursache in D4 – plus kostenlose 8D-Vorlage für Excel.
+Mit dem typischen Stolperstein in D4: Auftretens- UND Nichtentdeckungsursache – plus kostenlose 8D-Vorlage für Excel.
 
 📥 Kostenlose 8D-Report-Vorlage (Excel) aus dem Video – Eigenes Produkt, kostenlos (E-Mail-Anmeldung):
 https://www.DEINE-DOMAIN.de/produkte/8d-vorlage.html?utm_source=youtube&utm_medium=video&utm_campaign=8d-report-erklaert
@@ -88,6 +88,7 @@ Quellen & weiterführend
 • Temperatureinfluss bei der Dichtheitsprüfung: https://www.industrial-production.de/sensorik---messtechnik/alles-noch-ganz-dicht-.htm
 
 Hinweis: Alle verlinkten Vorlagen sind eigene Produkte dieses Kanals. Keine bezahlte Drittwerbung.
+Thumbnail: KI-generiertes Symbolbild eines fiktiven Bauteils.
 Impressum: [LINK ZUM IMPRESSUM EINTRAGEN]
 
 #8DReport #Qualitätsmanagement #Lieferantenqualität
@@ -111,15 +112,15 @@ Hypothese: Thumbnail A gewinnt bei Suchtraffic (Problem sichtbar), C bei Zuschau
 
 ## 7. Shorts-Skripte (je ≤ 60 s, Hochformat 9:16, Voice-over + Folien aus dem Longform)
 
-### Short 1 – „Der häufigste Stolperstein im 8D-Report“ (≈ 40 s, 92 Wörter)
+### Short 1 – „Der typische Stolperstein in D4“ (≈ 35–40 s, 76 Wörter)
 | Zeit | Sprechtext | Visuell |
 |---|---|---|
-| 0–4 s | Ihr 8D-Report kommt vom Kunden zurück? Oft liegt es an D4. | „8D abgelehnt?“ groß, rot |
+| 0–4 s | Ihr 8D-Report kommt vom Kunden zurück? Schauen Sie zuerst auf D4. | „8D abgelehnt?“ groß, rot |
 | 4–20 s | In D4 brauchen Sie immer zwei Ursachen. Die Auftretensursache: Warum ist der Fehler entstanden? Und die Nichtentdeckungsursache: Warum haben Sie ihn nicht gefunden, bevor er beim Kunden war? | F13 (zwei Spalten) |
 | 20–32 s | Beide Ursachen müssen Sie nachweisen. Am stärksten: Den Fehler gezielt erzeugen und wieder abstellen. Und für beide brauchen Sie eine eigene Abstellmaßnahme. | F18 |
 | 32–40 s | Die kostenlose 8D-Vorlage mit beiden Spalten: Link im Kanal. Das ganze Beispiel im langen Video. | F27 + Verlinkung „Ähnliches Video“ |
 
-### Short 2 – „Warum die Dichtheitsprüfung das Leck übersehen hat“ (≈ 45 s, 100 Wörter)
+### Short 2 – „Warum die Dichtheitsprüfung das Leck übersehen hat“ (≈ 40–45 s, 88 Wörter)
 | Zeit | Sprechtext | Visuell |
 |---|---|---|
 | 0–5 s | Jedes Teil wurde auf Dichtheit geprüft, und trotzdem kamen undichte Teile beim Kunden an. Wie geht das? | F06 Halter + Tropfen |
@@ -127,7 +128,7 @@ Hypothese: Thumbnail A gewinnt bei Suchtraffic (Problem sichtbar), C bei Zuschau
 | 25–38 s | Der Nachweis: Ein bekanntes Leckteil wird warm nicht erkannt, kalt schon. Die Lösung: Abkühlstrecke, Temperaturmessung vor der Prüfung, Leckteil-Test zu jedem Schichtbeginn. | F18 / F20 |
 | 38–45 s | Das ist die Nichtentdeckungsursache, Teil zwei von D4. Der ganze 8D am Beispiel: im langen Video. | „Fiktives Beispiel“ + Verlinkung |
 
-### Short 3 – „Sofortmaßnahme vs. Abstellmaßnahme“ (≈ 40 s, 85 Wörter)
+### Short 3 – „Sofortmaßnahme vs. Abstellmaßnahme“ (≈ 30–35 s, 65 Wörter)
 | Zeit | Sprechtext | Visuell |
 |---|---|---|
 | 0–4 s | Sofortmaßnahme oder Abstellmaßnahme? Im 8D ist das nicht dasselbe. | Zwei Begriffe gegenüber |
@@ -135,4 +136,4 @@ Hypothese: Thumbnail A gewinnt bei Suchtraffic (Problem sichtbar), C bei Zuschau
 | 18–32 s | Die Abstellmaßnahme in D5 und D6 beseitigt die Ursache. Erst wenn ihre Wirksamkeit belegt ist, und in Abstimmung mit dem Kunden, endet die Sofortmaßnahme. | F23 |
 | 32–40 s | Die kostenlose 8D-Vorlage: Link im Kanal. Das ganze Praxisbeispiel im langen Video. | F27 |
 
-*Shorts-Hinweis:* In Shorts-Beschreibungen sind Links nicht klickbar. Daher im Short auf das Longform verweisen (Funktion „Ähnliches Video“) und den Lead-Magneten im Kanal-Header bzw. im angepinnten Kommentar des Longforms verlinken.
+*Shorts-Hinweis:* Ob Links in Shorts-Beschreibungen klickbar sind, vor dem Upload im YouTube Studio prüfen [UNBELEGT, nicht recherchiert]. Sicherer Weg: im Short auf das Longform verweisen (Funktion „Ähnliches Video“) und den Lead-Magneten im Kanal-Header bzw. im angepinnten Kommentar des Longforms verlinken.

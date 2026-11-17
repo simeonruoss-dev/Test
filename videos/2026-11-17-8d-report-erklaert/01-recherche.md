@@ -59,7 +59,7 @@ Unterfragen (aus Anbieter-FAQs, Schulungsbeschreibungen und Kunden-8D-Anleitunge
 
 ## 4. Content Gap & Unique Angle
 1. **Ein durchgängiger technischer Fall** (Druckguss, Porosität, Dichtheitsprüfung) statt acht abstrakter Folien: Jede Disziplin baut auf der vorigen auf.
-2. **Fokus auf D4 mit zwei Ursachen** (Auftreten **und** Nichtentdeckung), inklusive Nachweis „Fehler ein- und ausschalten“. Das ist der häufigste Ablehnungsgrund und in DE-Inhalten kaum am Beispiel gezeigt.
+2. **Fokus auf D4 mit zwei Ursachen** (Auftreten **und** Nichtentdeckung), inklusive Nachweis „Fehler ein- und ausschalten“. Ein typischer Schwachpunkt [9][15], der in den gefundenen DE-Inhalten kaum am Beispiel gezeigt wird. (Eine Quelle für „häufigster Ablehnungsgrund“ fehlt, daher nicht so formulieren.)
 3. **Vorlage live im Video:** Jede Disziplin wird in der kostenlosen 8D-Excel-Vorlage gezeigt (Lead-Magnet p0).
 
 ## 5. Offene Punkte / Widersprüche
