@@ -5,6 +5,7 @@
 | 17.11.2026 | **Shop: Digistore24** | Merchant of Record: stellt Endkunden-Rechnungen, führt EU-USt ab, keine Fixkosten | Kauf-Links (`checkout_url`) in `shop/produkte.json` nach Produktfreigabe eintragen |
 | 17.11.2026 | **0-€-Fixkosten-Prinzip** bis zum Funktionsnachweis | Erst Zahlungsbereitschaft validieren | Nur Werkzeuge mit kostenlosem Tarif (s. u.); einzige empfohlene Ausnahme: Domain |
 | 17.11.2026 | Bestehendes Gewerbe nutzen | Bereits angemeldet | Ummeldung (neuer Wohnsitz) + Tätigkeit „Verkauf digitaler Produkte/Online-Inhalte“ ergänzen |
+| 17.11.2026 | **Anrede „Sie“** in allen Kundentexten (Website, Produkte, E-Mails, Videos) | B2B-Zielgruppe (Geschäftsführung, QMB in KMU) | Website umgestellt; Teams informiert |
 
 ## 0-€-Stack (Startphase)
 | Funktion | Werkzeug | Kosten | Hinweis |
